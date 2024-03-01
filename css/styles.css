@@ -14,6 +14,7 @@ ol {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
@@ -82,20 +83,6 @@ ol {
   background: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .features-title {
   color: #2e2f42;
   font-weight: 500;
@@ -121,7 +108,12 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
+.Mark-Guerrero {
+  background-color: #ffffff;
+}
+
 .team-card-name {
   font-weight: 500;
   font-size: 20px;
@@ -145,6 +137,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-card-name {
@@ -174,7 +167,7 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-footer span {
+.logo-footer-span {
   color: #f4f4fd;
 }
 
